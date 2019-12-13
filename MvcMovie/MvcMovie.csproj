@@ -141,6 +141,22 @@
     <Compile Include="Migrations\201912060810563_Rating.designer.cs">
       <DependentUpon>201912060810563_Rating.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912130645275_DataAnnotations.cs" />
+    <Compile Include="Migrations\201912130645275_DataAnnotations.designer.cs">
+      <DependentUpon>201912130645275_DataAnnotations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912130703149_DataAnnotations1.cs" />
+    <Compile Include="Migrations\201912130703149_DataAnnotations1.designer.cs">
+      <DependentUpon>201912130703149_DataAnnotations1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912130843406_DataAnnotations2.cs" />
+    <Compile Include="Migrations\201912130843406_DataAnnotations2.designer.cs">
+      <DependentUpon>201912130843406_DataAnnotations2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912130845294_DataAnnotations3.cs" />
+    <Compile Include="Migrations\201912130845294_DataAnnotations3.designer.cs">
+      <DependentUpon>201912130845294_DataAnnotations3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -211,6 +227,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912060810563_Rating.resx">
       <DependentUpon>201912060810563_Rating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912130645275_DataAnnotations.resx">
+      <DependentUpon>201912130645275_DataAnnotations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912130703149_DataAnnotations1.resx">
+      <DependentUpon>201912130703149_DataAnnotations1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912130843406_DataAnnotations2.resx">
+      <DependentUpon>201912130843406_DataAnnotations2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912130845294_DataAnnotations3.resx">
+      <DependentUpon>201912130845294_DataAnnotations3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
